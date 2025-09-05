@@ -7,7 +7,7 @@ def ls(ruta):
     return [arch.name for arch in scandir(ruta) if arch.is_file()]
 
 width = 28
-height = 28
+height = 28    # For high resolution images , change the width and height as 224 *224
 
 """Image to CSV and  Preprocessing using Area interpolation method_Test  images"""
 
